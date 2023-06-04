@@ -1,0 +1,29 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .category-bubbles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .category-bubble {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background-color: #eee;
+    color: #333;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .category-bubble.selected {
+    background-color: #333;
+    color: #fff;
+  }
+  .searchbar {
+    margin-top: 20px;
+  }

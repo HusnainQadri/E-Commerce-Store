@@ -1,0 +1,191 @@
+.product-detail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .product-detail-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-detail-info {
+    flex-grow: 1;
+    margin-left: 50px;
+  }
+  
+  .product-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+  
+  .product-detail-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 20px;
+  }
+  
+  .product-detail-description {
+    font-size: 1rem;
+    margin: 0 0 20px;
+    line-height: 1.5;
+  }
+  
+  .product-detail-color {
+    margin-bottom: 20px;
+  }
+  
+  .product-detail-color span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .color-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .color-option {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .color-option-inner {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .color-option.selected .color-option-inner {
+    border: 2px solid #000;
+  }
+  
+  .color-option.red .color-option-inner {
+    background-color: #ff4d4d;
+  }
+  
+  .color-option.blue .color-option-inner {
+    background-color: #4da6ff;
+  }
+  
+  .color-option.green .color-option-inner {
+    background-color: #b3ff66;
+  }
+  
+  .product-detail-size {
+    margin-bottom: 20px;
+  }
+  
+  .product-detail-size span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .product-detail-size select {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-detail-quantity {
+    margin-bottom: 20px;
+  }
+  
+  .product-detail-quantity span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .product-detail-quantity input {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .product-detail-add-to-cart {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .product-detail-add-to-cart:hover {
+    background-color: #333;
+  }
+  
+  .product-detail-back-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .product-detail-back-link:hover {
+    color: #333;
+  }
+  
+
+  .w-8 {
+    width: 8px;
+  }
+  
+  .h-8 {
+    height: 8px;
+  }
+  
+  .rounded-full {
+    border-radius: 9999px;
+  }
+  
+  .bg-red-500 {
+    background-color: #EF4444;
+  }
+
+  .bg-blue-500 {
+    background-color: #4da6ff;
+  }
+
+  .bg-green-500 {
+    background-color: #b3ff66;
+  }
+
+  .bg-green-500:focus {
+    border: 2px solid #b3ff66; /* Add a green border when the element is selected */
+    outline: none; /* Remove the default outline that appears on selection */
+  }
+
+  .bg-blue-500:focus {
+    border: 2px solid #4da6ff; /* Add a green border when the element is selected */
+    outline: none; /* Remove the default outline that appears on selection */
+  }
+  
+  .bg-red-500:focus {
+    border: 2px solid #EF4444; /* Add a green border when the element is selected */
+    outline: none; /* Remove the default outline that appears on selection */
+  }
+  
+  
+  .mx-3 {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
